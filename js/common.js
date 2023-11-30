@@ -1,9 +1,10 @@
 $(function(){
-    console.log("load")
-    $(".navi a").mouseenter(function(){
-        $(".drop").stop().slideDown();
-    })
-    $(".nav-gr").mouseleave(function(){
-        $(".drop").stop().slideUp();
-    })
+   $(".main-nav").mouseenter(function(){
+    $(".drop").stop().slideDown();
+    $(".drop-back").stop().slideDown();
+   })
+   $("nav").mouseleave(function(){
+    $(".drop").stop().slideUp();
+    $(".drop-back").stop().slideUp();
+   })
 })
