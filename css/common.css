@@ -1,0 +1,240 @@
+@charset "utf-8";
+html,body{
+    color: #333333;
+    font-family: "맑은고딕";
+    font-size: 16px;
+    background-color: #e1e6ea;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+a:hover{
+    color: #5f5555;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: bottom;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    background-color: rgb(33, 86, 136);
+    margin: auto;
+    display: flex;
+    height: 100px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+
+}
+
+h1{
+    width: 200px;
+    /* border: 1px solid black; */
+    padding: 30px 0;
+    margin-left: 25px;
+
+}
+nav{
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    /* border: 1px solid black; */
+    margin-left: 30%;
+   
+}
+.nav-gr{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+.navi{
+    width: 25%;
+    /* border: 1px solid white; */
+    text-align: center;
+    padding: 10px 0;
+    background-color: transparent;
+    position: relative;
+}
+.navi>a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(228, 227, 227);
+}
+.navi:hover{
+    background-color: #ffffff73;
+}
+.drop{
+    position: absolute;
+    width: 100%;
+    display: block;
+    background-color: #ffffff73;
+    height: 150px;
+    top: 46px;
+    display: none;
+   
+ 
+}
+.drop a{
+    display: block;
+    padding: 5px 0;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.drop a:hover{
+    background-color: #e1e6ea;
+    color: rgb(33, 86, 136) ;
+}
+
+section{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+section>h2{
+    display: none;
+}
+.slide-gr{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+}
+.slide-gr img{
+    width: 100%;
+}
+.ngb-gr{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.notic{
+    width: 33.33%;
+    /* border: 1px solid pink; */
+}
+.notic-tab,
+.gal-tab{
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 10px auto;
+    padding-top: 20px;
+    
+}
+.notic-title,
+.gal-title{
+    width: 40%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #f7fcff;
+    border-bottom: 1px solid #f7fcff;
+    z-index: 9;
+}
+.gal-title{
+    background-color: rgb(33, 86, 136);
+    color: white;
+}
+.notic-content,
+.gal-content{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #f7fcff;
+    padding: 8px 0;
+    margin-top: -1px;
+}
+.notic-content ul{
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.notic-content li,
+.gal-content li{
+    list-style: none;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.notic-content ul li:nth-child(even){
+    background-color: rgb(209, 220, 230);
+}
+/* .notic-content>ul>li:nth-child(even){
+    background-color: rgb(84, 147, 202);
+} */
+.gallery{
+    width: 33.33%;
+    /* border: 1px solid pink; */
+}
+.baro{
+    width: 33.33%;
+    /* border: 1px solid pink; */
+}
+.baro img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgb(94, 102, 109);
+    justify-content: space-around;
+    align-items: center;
+}
+.copy{
+    width: 85%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.sf-gr{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.sns{
+    /* border: 1px solid black; */
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.sns a{
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: 40px;
+    height: 40px;
+}
+.sns img{
+    width: 100%;
+}
+.family{
+    height: 50%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.family a{
+    display: block;
+    font-size: 0.7rem;
+}
+
